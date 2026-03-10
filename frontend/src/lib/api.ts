@@ -6,7 +6,8 @@
  * so no hardcoded localhost URLs elsewhere in the app.
  */
 
-const BASE = "/api";
+// Fallback to /api for local Vite proxy, but use VITE_API_URL if hosted in production (e.g. on Vercel)
+const BASE = import.meta.env.VITE_API_URL || "/api";
 
 // ── Types ──────────────────────────────────────────────────────────────────
 
