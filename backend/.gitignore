@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+*.log
+
+# Model cache (HuggingFace downloads to ~/.cache by default)
+# Uncomment next line if you cache models locally:
+# models/

@@ -1,0 +1,28 @@
+# ── Core API ──────────────────────────────────────────────────────────────────
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+pydantic==2.7.1
+python-multipart==0.0.9
+python-dotenv==1.0.1
+
+# ── ML / HuggingFace ──────────────────────────────────────────────────────────
+transformers>=4.40.0
+# transformers currently requires huggingface-hub <1.0, so we pin accordingly
+huggingface_hub>=0.23.0,<1.0
+scipy>=1.13.0
+
+# ── PyTorch (CUDA 12.1 — RTX 4050) ───────────────────────────────────────────
+# Install via: pip install torch==2.5.1+cu121 --index-url https://download.pytorch.org/whl/cu121
+# DO NOT use plain `pip install torch` — that gives the CPU-only build
+torch==2.5.1+cu121
+pandas==2.2.2
+openpyxl==3.1.2
+scikit-learn==1.4.2
+joblib==1.4.0
+
+# ── Auth & Database ──────────────────────────────────────────────────────────
+motor==3.4.0
+python-jose[cryptography]==3.3.0
+bcrypt==4.1.2
+google-auth==2.29.0
+requests==2.31.0

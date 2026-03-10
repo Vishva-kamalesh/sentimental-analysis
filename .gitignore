@@ -1,0 +1,38 @@
+# Environment
+.venv/
+venv/
+backend/venv/
+__pycache__/
+*.pyc
+.env
+backend/.env
+frontend/.env
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.next/
+
+# Large Datasets (Over 100MB)
+backend/reviews.csv
+backend/processed_reviews.csv
+backend/X_train.csv
+backend/X_test.csv
+backend/lstm_data.pkl
+backend/Dataset/
+backend/Dataset2/
+
+# Large Model Weights (Portability handled via code)
+backend/bert_model_final/
+backend/lstm_model_full.h5
+backend/lstm_model_refined.h5
+backend/lstm_tokenizer.pkl
+backend/*.h5
+backend/*.pkl
+
+# Logs & Metrics
+backend/bert_results/
+backend/error.txt
+backend/report_*.txt
+backend/report.txt
+backend/*.png
