@@ -16,7 +16,7 @@ An industrial-grade sentiment analysis system trained on 568k Amazon Fine Food r
 | **DistilBERT Champion** | **91.26%** | **0.805** | **71%** |
 
 ## 🚀 Key Features
-- **High-Throughput API**: Benchmarked at **29 requests per second** on an RTX 3050.
+- **High-Throughput API**: Benchmarked at **29 requests per second** on an RTX 4050.
 - **Async Batching**: Background worker that parallelizes GPU inference for massive efficiency.
 - **Uncertainty Flag**: Detects ambiguous or sarcastic reviews using softmax entropy sensitivity.
 - **Real-time Metrics**: React dashboard showing latency (ms) and confidence scores for every prediction.
