@@ -27,4 +27,4 @@ An industrial-grade sentiment analysis system trained on 568k Amazon Fine Food r
 - **Frontend**: Vite, React, Framer Motion, Shadcn UI.
 
 ---
-🚀 Developed by RockstarRazee & Antigravity 🚀
+🚀 Developed by Vishva Kamalesh S🚀
